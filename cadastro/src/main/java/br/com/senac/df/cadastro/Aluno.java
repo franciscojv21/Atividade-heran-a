@@ -30,4 +30,11 @@ public class Aluno extends Pessoa {
     this.media = media;         
   } 
   
+   @Override
+  public void apresentacao(){
+      System.out.println("Olá, sou aluno.");
+  }
+  
+  
+  
 }
