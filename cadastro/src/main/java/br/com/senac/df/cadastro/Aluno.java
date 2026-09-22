@@ -32,7 +32,7 @@ public class Aluno extends Pessoa {
   
    @Override
   public void apresentacao(){
-      System.out.println("Olá, sou aluno.");
+      System.out.println("Olá, sou aluno. Me chamo " + this.getNome());
   }
   
   

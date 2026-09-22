@@ -34,7 +34,7 @@ public class Professor extends Pessoa{
   
    @Override
   public void apresentacao(){
-      System.out.println("Olá, sou o professor.");
+      System.out.println("Olá, sou o professor. Me chamo " + this.getNome());
   }
   
   
